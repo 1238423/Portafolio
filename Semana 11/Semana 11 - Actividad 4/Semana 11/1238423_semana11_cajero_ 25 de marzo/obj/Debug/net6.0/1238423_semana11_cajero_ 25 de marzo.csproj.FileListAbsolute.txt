@@ -1,0 +1,15 @@
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.csproj.AssemblyReference.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.AssemblyInfoInputs.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.AssemblyInfo.cs
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.csproj.CoreCompileInputs.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\bin\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.exe
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\bin\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.deps.json
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\bin\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.runtimeconfig.json
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\bin\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\bin\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.pdb
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\refint\1238423_semana11_cajero_ 25 de marzo.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.pdb
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\1238423_semana11_cajero_ 25 de marzo.genruntimeconfig.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 11\1238423_semana11_cajero_ 25 de marzo\obj\Debug\net6.0\ref\1238423_semana11_cajero_ 25 de marzo.dll

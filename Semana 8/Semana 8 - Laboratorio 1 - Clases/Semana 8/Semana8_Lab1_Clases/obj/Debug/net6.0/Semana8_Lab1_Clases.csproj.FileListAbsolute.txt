@@ -1,0 +1,30 @@
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.csproj.AssemblyReference.cache
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.AssemblyInfoInputs.cache
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.AssemblyInfo.cs
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.csproj.CoreCompileInputs.cache
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.exe
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.deps.json
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.runtimeconfig.json
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.dll
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.pdb
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.dll
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\refint\Semana8_Lab1_Clases.dll
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.pdb
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.genruntimeconfig.cache
+C:\Users\52216137\source\repos\Semana8_Lab1_Clases\Semana8_Lab1_Clases\obj\Debug\net6.0\ref\Semana8_Lab1_Clases.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.exe
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.deps.json
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.runtimeconfig.json
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\bin\Debug\net6.0\Semana8_Lab1_Clases.pdb
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.csproj.AssemblyReference.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.AssemblyInfoInputs.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.AssemblyInfo.cs
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.csproj.CoreCompileInputs.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\refint\Semana8_Lab1_Clases.dll
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.pdb
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\Semana8_Lab1_Clases.genruntimeconfig.cache
+C:\Users\degan\Documents\URL\Github\1238423\Semana 8\Semana8_Lab1_Clases\obj\Debug\net6.0\ref\Semana8_Lab1_Clases.dll
