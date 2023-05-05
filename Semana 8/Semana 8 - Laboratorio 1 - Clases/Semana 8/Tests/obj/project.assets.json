@@ -6275,11 +6275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\degan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\degan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6296,8 +6296,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj": {
-              "projectPath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj"
+            "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj": {
+              "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj"
             }
           }
         }

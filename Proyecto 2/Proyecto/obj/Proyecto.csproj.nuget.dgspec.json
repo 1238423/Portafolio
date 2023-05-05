@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj": {}
+    "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj": {
+    "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj",
+        "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj",
         "projectName": "Driver",
-        "projectPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj",
+        "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj",
         "packagesPath": "C:\\Users\\degan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\obj\\",
+        "outputPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\degan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj": {
+    "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj",
+        "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\Proyecto.csproj",
         "packagesPath": "C:\\Users\\degan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\obj\\",
+        "outputPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\degan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj": {
-                "projectPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj"
+              "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj": {
+                "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj"
               }
             }
           }

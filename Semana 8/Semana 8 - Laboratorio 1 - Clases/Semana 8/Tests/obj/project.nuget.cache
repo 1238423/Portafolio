@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0NonrTYW35xnnz+JegsDCxP61RJI1A2zGrD5pOecUjW2JXQG7BzKlNZMAzwGYhLnpjPW7dL6qubVdMiPkK8BA==",
+  "dgSpecHash": "9c7eLJ7zanFjRCDwNsO72VWQ2sfRgphJ1Zk+k//6Hj0tqC/6PRJjHdILuy/uySE8HBMAIu0vv2nk2D9FNF+Uyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\degan\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\degan\\.nuget\\packages\\fluentassertions\\6.10.0\\fluentassertions.6.10.0.nupkg.sha512",

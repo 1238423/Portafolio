@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yb2ln8MOvlxF1GZTRJQ5nNvq6nGvDH9EtSipyObeLxa09WiirnNwF+AaKaDFEcSHBw0O4BXT2MJthceFHQ7Wcg==",
+  "dgSpecHash": "xouZkbXQmTw1MK7p1xdiCcq8mmA1SYNkf3CEa/m+dagXq2MWbz2BBU8Fq4I0tYawe84vTfWkFolK7i0s/Gb8VQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj",
+  "projectFilePath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Proyecto\\Proyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\degan\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\degan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

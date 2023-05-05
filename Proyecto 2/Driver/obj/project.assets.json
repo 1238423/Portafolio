@@ -241,11 +241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj",
+      "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj",
       "projectName": "Driver",
-      "projectPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\Driver.csproj",
+      "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\Driver.csproj",
       "packagesPath": "C:\\Users\\degan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Driver\\obj\\",
+      "outputPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Proyecto 2\\Driver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\degan\\AppData\\Roaming\\NuGet\\NuGet.Config",

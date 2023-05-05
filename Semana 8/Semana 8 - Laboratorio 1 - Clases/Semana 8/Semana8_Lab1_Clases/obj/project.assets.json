@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj",
+      "projectUniqueName": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj",
       "projectName": "Semana8_Lab1_Clases",
-      "projectPath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj",
+      "projectPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Semana8_Lab1_Clases\\Semana8_Lab1_Clases.csproj",
       "packagesPath": "C:\\Users\\degan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\degan\\Documents\\URL\\Github\\1238423\\Semana 8\\Semana8_Lab1_Clases\\obj\\",
+      "outputPath": "C:\\Users\\degan\\Documents\\URL\\Portafolio\\Portafolio\\Semana 8\\Semana 8 - Laboratorio 1 - Clases\\Semana 8\\Semana8_Lab1_Clases\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\degan\\AppData\\Roaming\\NuGet\\NuGet.Config",
