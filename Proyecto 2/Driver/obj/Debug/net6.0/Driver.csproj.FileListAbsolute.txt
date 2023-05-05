@@ -22,3 +22,15 @@ C:\Users\degan\Downloads\Proyecto 2\Driver\obj\Debug\net6.0\Driver.dll
 C:\Users\degan\Downloads\Proyecto 2\Driver\obj\Debug\net6.0\refint\Driver.dll
 C:\Users\degan\Downloads\Proyecto 2\Driver\obj\Debug\net6.0\Driver.pdb
 C:\Users\degan\Downloads\Proyecto 2\Driver\obj\Debug\net6.0\ref\Driver.dll
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\bin\Debug\net6.0\Driver.deps.json
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\bin\Debug\net6.0\Driver.dll
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\bin\Debug\net6.0\Driver.pdb
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.csproj.AssemblyReference.cache
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.AssemblyInfoInputs.cache
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.AssemblyInfo.cs
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.csproj.CoreCompileInputs.cache
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.dll
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\refint\Driver.dll
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\Driver.pdb
+C:\Users\degan\Documents\URL\Portafolio\Portafolio\Proyecto 2\Driver\obj\Debug\net6.0\ref\Driver.dll

@@ -1,4 +1,6 @@
 ﻿
+using Driver;
+
 namespace Proyecto
 {
     public class Program 
@@ -26,6 +28,62 @@ namespace Proyecto
 
             Console.ReadKey();
 
+            // Obtener la lista de DPIs que ya han registrado su voto
+            string[] dpisRegistrados = Driver.BlockchainConnector.ActualizarDpis();
+
+            // Utiliza la lista de DPIs registrados 
+
+            Console.ReadKey();
+            //2------------------------------------------------------------------------------------------------------------------------------
+            // Segunda parte del enunciado. Parte 1. Vista del usuario
+            Console.WriteLine("Bienvenido al sistema de votación.");
+            Console.Write("Por favor ingrese su número de DPI: ");
+            string dpi = Console.ReadLine();
+
+            // Validar si el DPI ya fue utilizado.
+            string[] listaDpis = BlockchainConnector.ActualizarDpis();
+
+            if (listaDpis.Contains(dpi))
+            {
+                Console.WriteLine("Este DPI ya ha sido utilizado anteriormente.");
+                // Aquí puedes mostrar un mensaje de error en la interfaz de usuario
+            }
+            else
+            {
+                Console.WriteLine("Bienvenido, puede continuar con el proceso de votación.");
+                // Aquí puedes mostrar la siguiente vista para continuar con el proceso de votación
+            }
+
+            // SEGUNDA PARTE DEL ENUNCIADO. (MENU)
+            Console.WriteLine("Bienvenido, por favor seleccione una opción:");
+            Console.WriteLine("1. Elegir presidente");
+            Console.WriteLine("2. Elegir diputado");
+            Console.WriteLine("3. Finalizar votación");
+
+            string opcion = Console.ReadLine();
+
+            switch (opcion)
+            {
+                case "1":
+                    // lógica para elegir presidente
+                    break;
+                case "2":
+                    // lógica para elegir diputado
+                    break;
+                case "3":
+                    Console.WriteLine("Gracias por votar.");
+                    Console.ReadKey();
+                    return;
+                default:
+                    Console.WriteLine("Opción inválida.");
+                    Console.ReadKey();
+                    return;
+            }
+
+
+
         }
+
     }
+    
 }
