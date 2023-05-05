@@ -1,16 +1,17 @@
 ﻿
 using Driver;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Proyecto
 {
-    public class Program 
+    public class Program
     {
-        public static void Main(string[] args) 
+        public static void Main(string[] args)
         {
 
             // Ejemplo de como utilizar el driver en su sistema/proyecto
 
-            string[] ListaDeDpis = Driver.BlockchainConnector.ActualizarDpis();
+            //string[] ListaDeDpis = Driver.BlockchainConnector.ActualizarDpis();
             string[,] presidentes = Driver.BlockchainConnector.CandidatosPresidentes();
             string[,] diputados = Driver.BlockchainConnector.CandidatosDiputados();
 
@@ -18,30 +19,38 @@ namespace Proyecto
             // en el caso de los parametros 2 y 3, los Guid.NewGuid(), estos seran reemplzados
             // por los ids del presidente y diputado electo por el votante, respectivamente
             // Aqui solo se han utilizado como ejemplos.
-            ListaDeDpis = Driver.BlockchainConnector.RegistrarVoto("Rempplazar por un DPI", Guid.NewGuid(), Guid.NewGuid(), "nick");
 
-            Console.WriteLine("DPIs ya registrados");
-            foreach (string s in ListaDeDpis) // lee los objetos y los parsea por i. 
-            {
-                Console.WriteLine(s);
-            }
-
-            Console.ReadKey();
-
-            // Obtener la lista de DPIs que ya han registrado su voto
-            string[] dpisRegistrados = Driver.BlockchainConnector.ActualizarDpis();
-
+        
             // Utiliza la lista de DPIs registrados 
+            // Obtener la lista de DPIs que ya han registrado su voto
+            Console.WriteLine("DPIs ya registrados");
 
+            lista_de_dpis_registrados lissta = new lista_de_dpis_registrados();
+
+
+
+
+            Console.WriteLine("Presione enter para continuar");
             Console.ReadKey();
+
+            string[] listaDpis = BlockchainConnector.ActualizarDpis();
+
             //2------------------------------------------------------------------------------------------------------------------------------
             // Segunda parte del enunciado. Parte 1. Vista del usuario
             Console.WriteLine("Bienvenido al sistema de votación.");
             Console.Write("Por favor ingrese su número de DPI: ");
             string dpi = Console.ReadLine();
 
+            //cambio de string de ejemplo a la variable dpi - AGREGA EL DATO DEL USUARIO A LA LISTA DE DPIs
+            string[] ListaDeDpis = Driver.BlockchainConnector.ActualizarDpis();
+            ListaDeDpis = Driver.BlockchainConnector.RegistrarVoto(dpi, Guid.NewGuid(), Guid.NewGuid(), "nick");
+
+            
+
+           
+           
             // Validar si el DPI ya fue utilizado.
-            string[] listaDpis = BlockchainConnector.ActualizarDpis();
+            
 
             if (listaDpis.Contains(dpi))
             {
