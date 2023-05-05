@@ -1,0 +1,44 @@
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Proyecto.exe
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Proyecto.deps.json
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Proyecto.runtimeconfig.json
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Proyecto.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Proyecto.pdb
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Driver.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\bin\Debug\net6.0\Driver.pdb
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfoInputs.cache
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfo.cs
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CopyComplete
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\refint\Proyecto.dll
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.pdb
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\Proyecto.genruntimeconfig.cache
+C:\Users\Abraham\source\repos\Driver\Proyecto\obj\Debug\net6.0\ref\Proyecto.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Proyecto.exe
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Proyecto.deps.json
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Proyecto.runtimeconfig.json
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Proyecto.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Proyecto.pdb
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\RestSharp.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Driver.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\bin\Debug\net6.0\Driver.pdb
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.csproj.AssemblyReference.cache
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfoInputs.cache
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfo.cs
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CopyComplete
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\refint\Proyecto.dll
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.pdb
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\Proyecto.genruntimeconfig.cache
+C:\Users\degan\Downloads\Proyecto 2\Proyecto\obj\Debug\net6.0\ref\Proyecto.dll

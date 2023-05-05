@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yb2ln8MOvlxF1GZTRJQ5nNvq6nGvDH9EtSipyObeLxa09WiirnNwF+AaKaDFEcSHBw0O4BXT2MJthceFHQ7Wcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\degan\\Downloads\\Proyecto 2\\Proyecto\\Proyecto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\degan\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\degan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\degan\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\degan\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
