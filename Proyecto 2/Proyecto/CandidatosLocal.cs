@@ -8,13 +8,15 @@ namespace Proyecto
 {
     public class Presidente
     {
-       
-            public Guid Id { get; set; }
-            public string Name { get; set; }
-            public string Partido { get; set; }
-            public string VicePresident { get; set; }
-        
+
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Partido { get; set; }
+        public string VicePresident { get; set; }
+
     }
+
+
     public class CandidatosLocal
     {
 
@@ -35,4 +37,7 @@ namespace Proyecto
             return presidentes;
         }
     }
+
 }
+
+

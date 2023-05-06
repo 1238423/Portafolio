@@ -139,7 +139,7 @@ namespace Proyecto
                     MetodoPresidente elegirPresi = new MetodoPresidente(); //////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     elegirPresi.M_CandidatosPresidentes();
 
-                    // 
+
 
 
                     break;
@@ -147,8 +147,52 @@ namespace Proyecto
                     //Muestra los canditados a diputado
                     //  string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
                     // lógica para elegir diputado
+                    Console.WriteLine("Lista de candidatos a diputado:\n");
+
+                    string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
+
+                    for (int i = 0; i < candidatosDiputados.GetLength(0); i++)
+                    {
+                        string id = candidatosDiputados[i, 0];
+                        string nombreCandidato = candidatosDiputados[i, 1];
+                        string nombrePartido = candidatosDiputados[i, 2];
+                        string departamento = candidatosDiputados[i, 3];
+
+                        Console.WriteLine($"Candidato #{i}:"); // i + 1 para que inicie desde 1
+                        Console.WriteLine($"ID: {id}");
+                        Console.WriteLine($"Nombre del candidato: {nombreCandidato}");
+                        Console.WriteLine($"Partido político: {nombrePartido}");
+                        Console.WriteLine($"Departamento: {departamento}");
+                        Console.WriteLine();
+                    }
+
+                    // guardar los datos impresos localmente.
+                    _CandidatosLocalD diputadoData = new _CandidatosLocalD();
+
+                    for (int i = 0; i < candidatosDiputados.GetLength(0); i++)
+                    {
+                        // Crear un objeto Diputado y asignar los valores correspondientes
+
+                        Diputado diputado = new Diputado
+                        {
+                            Id = Guid.Parse(candidatosDiputados[i, 0]),
+                            Nombre = candidatosDiputados[i, 1],
+                            Partido = candidatosDiputados[i, 2],
+                            Departamento = candidatosDiputados[i, 3]
+                        };
+
+
+                        // Agregar el objeto Presidente a la clase PresidenteData
+                        diputadoData.AgregarDiputado(diputado);
+                    }
+
+                    MetodoDiputado elegirDiputado = new MetodoDiputado();
+                    elegirDiputado.M_CandidatosDiputados();
 
                     break;
+
+
+
                 case "3":
                     Console.WriteLine("Gracias por votar.");
                     Console.ReadKey();
