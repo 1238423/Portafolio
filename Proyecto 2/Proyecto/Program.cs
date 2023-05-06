@@ -25,7 +25,7 @@ namespace Proyecto
             // Obtener la lista de DPIs que ya han registrado su voto
             Console.WriteLine("DPIs ya registrados");
 
-            lista_de_dpis_registrados lissta = new lista_de_dpis_registrados();
+            Console.WriteLine(lista_de_dpis_registrados);
 
 
 
