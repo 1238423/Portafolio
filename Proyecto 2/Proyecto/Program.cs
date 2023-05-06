@@ -139,7 +139,7 @@ namespace Proyecto
                     MetodoPresidente elegirPresi = new MetodoPresidente(); //////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     elegirPresi.M_CandidatosPresidentes();
 
-
+                    // 
 
 
                     break;
