@@ -139,7 +139,9 @@ namespace Proyecto
                     MetodoPresidente elegirPresi = new MetodoPresidente(); //////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     elegirPresi.M_CandidatosPresidentes();
 
-
+                    Console.WriteLine("Presione cualquier tecla para volver al menú principal.");
+                    Console.ReadKey();
+                    break;
 
 
                     break;
