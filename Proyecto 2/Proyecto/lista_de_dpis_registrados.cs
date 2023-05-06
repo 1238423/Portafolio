@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto
 {
-    internal class lista_de_dpis_registrados
+    public class lista_de_dpis_registrados
     {
         public void lista()
         {
