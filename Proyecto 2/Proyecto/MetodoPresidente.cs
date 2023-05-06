@@ -88,7 +88,9 @@ namespace Proyecto
                     Guid presidenteId = Guid.Parse(presidentes[seleccion, 0]);
                     Guid diputadoId = Guid.NewGuid();
 
-                    string[] listaDeDpis = Driver.BlockchainConnector.RegistrarVoto(dpi, presidenteId, diputadoId, nick);
+                   
+           
+                      Driver.BlockchainConnector.RegistrarVoto(dpi, presidenteId, diputadoId, "nick");
 
                     seleccionValida = true; // Sale
 
@@ -112,6 +114,8 @@ namespace Proyecto
                     }
 
                 }
+
+                
 
 
 

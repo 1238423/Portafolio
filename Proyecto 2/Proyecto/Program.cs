@@ -19,7 +19,7 @@ namespace Proyecto
             //listo
             string[,] presidentes = Driver.BlockchainConnector.CandidatosPresidentes();
             string[,] diputados = Driver.BlockchainConnector.CandidatosDiputados();
-
+            Driver.BlockchainConnector.RegistrarVoto("TEST_DUPLICADO_0089", Guid.Parse(presidentes[0, 0]), Guid.Parse(diputados[0, 0]), "1238423");
             // Registrar un voto recibe los 4 parametros del enunciado
             // en el caso de los parametros 2 y 3, los Guid.NewGuid(), estos seran reemplzados
             // por los ids del presidente y diputado electo por el votante, respectivamente
@@ -72,7 +72,8 @@ namespace Proyecto
 
                     string[] ListaDeDpis = Driver.BlockchainConnector.ActualizarDpis();
                     // EJ
-                    ListaDeDpis = Driver.BlockchainConnector.RegistrarVoto(dpi, Guid.NewGuid(), Guid.NewGuid(), "nick");
+                   Driver.BlockchainConnector.RegistrarVoto("TEST_DUPLICADO_003", Guid.Parse(presidentes[0,0]), Guid.Parse(diputados[0, 0]), "1238423");
+
                 }
             }
 
@@ -136,16 +137,15 @@ namespace Proyecto
                     //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                     // Lógica para elegir un candidato a presidente ----------------Parte D -------------
-                    MetodoPresidente elegirPresi = new MetodoPresidente(); //////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    MetodoPresidente elegirPresi = new MetodoPresidente(); //---
                     elegirPresi.M_CandidatosPresidentes();
 
-                    Console.WriteLine("Presione cualquier tecla para volver al menú principal.");
-                    Console.ReadKey();
-                    
+
+              
 
 
-                    break;
-                case "2":
+                    //    break;
+                    //case "2":
                     //Muestra los canditados a diputado
                     //  string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
                     // lógica para elegir diputado
@@ -190,6 +190,8 @@ namespace Proyecto
 
                     MetodoDiputado elegirDiputado = new MetodoDiputado();
                     elegirDiputado.M_CandidatosDiputados();
+
+               
 
                     break;
 

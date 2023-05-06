@@ -20,7 +20,7 @@ namespace Driver
         public static string[,] CandidatosPresidentes()
         {
             var presidentsData = _httpClient.GetJson<CandidatePresident[]>("/canditates/presidents");
-            if(presidentsData is null) return null;
+            if (presidentsData is null) return null;
 
             var data = new string[presidentsData.Length, 4];
             for (int i = 0; i < presidentsData.Length; i++)
@@ -64,7 +64,7 @@ namespace Driver
                 vote.Dpi = DPI;
                 vote.Presidente = (Guid)presidenteId;
                 vote.Diputado = (Guid)diputadoId;
-                vote.node = System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(System.Net.Dns.GetHostName()));
+                vote.node = System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("V2_" + System.Net.Dns.GetHostName() + "_" + estudiante));
                 var response = _httpClient.PostJson("/", vote);
                 if (response.Equals(HttpStatusCode.OK))
                 {
