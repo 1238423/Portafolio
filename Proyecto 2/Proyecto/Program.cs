@@ -19,10 +19,10 @@ namespace Proyecto
             // Registrar un voto recibe los 4 parametros del enunciado
             // en el caso de los parametros 2 y 3, los Guid.NewGuid(), estos seran reemplzados
             // por los ids del presidente y diputado electo por el votante, respectivamente
-         
 
-        
-           
+
+
+
             Console.WriteLine("DPIs ya registrados: " + "\n");
 
             lista_de_dpis_registrados dpisRegistrados = new lista_de_dpis_registrados();
@@ -39,10 +39,10 @@ namespace Proyecto
             //2------------------------------------------------------------------------------------------------------------------------------
             // Segunda parte del enunciado. Parte 1. Vista del usuario
             Console.WriteLine("Bienvenido al sistema de votación. \n");
-          
+
 
             //cambio de string de ejemplo a la variable dpi - AGREGA EL DATO DEL USUARIO A LA LISTA DE DPIs
-          
+
 
 
             // Validar si el DPI ya fue utilizado.
@@ -71,104 +71,110 @@ namespace Proyecto
                     ListaDeDpis = Driver.BlockchainConnector.RegistrarVoto(dpi, Guid.NewGuid(), Guid.NewGuid(), "nick");
                 }
             }
-            //else
-            //{
-            //    Console.WriteLine("*****Bienvenido, puede continuar con el proceso de votación.*****");
-            //    // Aquí puedes mostrar la siguiente vista para continuar con el proceso de votación
-            //}
 
-          
-            // SEGUNDA PARTE DEL ENUNCIADO. (MENU)
-            Console.WriteLine("Bienvenido, por favor seleccione una opción:");
-            Console.WriteLine("1. Elegir presidente");
-            Console.WriteLine("2. Elegir diputado");
-            Console.WriteLine("3. Finalizar votación");
-
-            string opcion = Console.ReadLine();
-
-
-            // TERCERA PARTE DEL ENUNCIADO ------- VIST PARA VOTACIÓN DEL PRESIDENTE
-           
-
-            switch (opcion)
+            string opcion;
+            do
             {
-                case "1":
-                    //Muestra los candidatos a presidente
 
-                    Console.WriteLine("Lista de candidatos a presidente:\n");
+                // SEGUNDA PARTE DEL ENUNCIADO. (MENU)
+                Console.WriteLine("Bienvenido, por favor seleccione una opción:");
+                Console.WriteLine("1. Elegir presidente");
+                Console.WriteLine("2. Elegir diputado");
+                Console.WriteLine("3. Finalizar votación");
 
-                    string[,] candidatosPresidentes = BlockchainConnector.CandidatosPresidentes();
+                opcion = Console.ReadLine();
 
-                    for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
-                    {
-                        string id = candidatosPresidentes[i, 0];
-                        string nombreCandidato = candidatosPresidentes[i, 1];
-                        string nombrePartido = candidatosPresidentes[i, 2];
-                        string vicepresidente = candidatosPresidentes[i, 3];
 
-                        Console.WriteLine($"Candidato #{i}:"); // i + 1 para que inicie desde 1
-                        Console.WriteLine($"ID: {id}");
-                        Console.WriteLine($"Nombre del candidato: {nombreCandidato}");
-                        Console.WriteLine($"Partido político: {nombrePartido}");
-                        Console.WriteLine($"Vicepresidente: {vicepresidente}");
-                        Console.WriteLine();
-                    }
+                // TERCERA PARTE DEL ENUNCIADO ------- VIST PARA VOTACIÓN DEL PRESIDENTE
 
-                    // guardar los datos impresos localmente.
-                    CandidatosLocal presidenteData = new CandidatosLocal();
 
-                    for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
-                    {
-                        // Crear un objeto Presidente y asignar los valores correspondientes
+                switch (opcion)
+                {
+                    case "1":
+                        //Muestra los candidatos a presidente
 
-                        Presidente presidente = new Presidente
+                        Console.WriteLine("Lista de candidatos a presidente:\n");
+
+                        string[,] candidatosPresidentes = BlockchainConnector.CandidatosPresidentes();
+
+                        for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
                         {
-                            Id = Guid.Parse(candidatosPresidentes[i, 0]),
-                            Name = candidatosPresidentes[i, 1],
-                            Partido = candidatosPresidentes[i, 2],
-                            VicePresident = candidatosPresidentes[i, 3]
-                        };
+                            string id = candidatosPresidentes[i, 0];
+                            string nombreCandidato = candidatosPresidentes[i, 1];
+                            string nombrePartido = candidatosPresidentes[i, 2];
+                            string vicepresidente = candidatosPresidentes[i, 3];
+
+                            Console.WriteLine($"Candidato #{i}:"); // i + 1 para que inicie desde 1
+                            Console.WriteLine($"ID: {id}");
+                            Console.WriteLine($"Nombre del candidato: {nombreCandidato}");
+                            Console.WriteLine($"Partido político: {nombrePartido}");
+                            Console.WriteLine($"Vicepresidente: {vicepresidente}");
+                            Console.WriteLine();
+                        }
+
+                        // guardar los datos impresos localmente.
+                        CandidatosLocal presidenteData = new CandidatosLocal();
+
+                        for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
+                        {
+                            // Crear un objeto Presidente y asignar los valores correspondientes
+
+                            Presidente presidente = new Presidente
+                            {
+                                Id = Guid.Parse(candidatosPresidentes[i, 0]),
+                                Name = candidatosPresidentes[i, 1],
+                                Partido = candidatosPresidentes[i, 2],
+                                VicePresident = candidatosPresidentes[i, 3]
+                            };
 
 
-                        // Agregar el objeto Presidente a la clase PresidenteData
-                        presidenteData.AgregarPresidente(presidente);
-                    }
-                    //AQUI TERMINA LA PARTE B
-                    
-                    // Lógica para elegir un candidato a presidente
-                    Console.WriteLine("Seleccione el número del candidato a presidente: ");
-                    int seleccion = int.Parse(Console.ReadLine());
-
-                    // Validar la selección del candidato
-
-                    // Obtener el ID del candidato seleccionado
-                    string idCandidato = candidatosPresidentes[seleccion - 1, 0];
-
-                   
-
-                    
-                   
-                    // lógica para elegir presidente
-                    break;
-                case "2":
-                    //Muestra los canditados a diputado
-                    string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
-                    // lógica para elegir diputado
-                    break;
-                case "3":
-                    Console.WriteLine("Gracias por votar.");
-                    Console.ReadKey();
-                    return;
-                default:
-                    Console.WriteLine("Opción inválida.");
-                    Console.ReadKey();
-                    return;
-            }
+                            // Agregar el objeto Presidente a la clase PresidenteData
+                            presidenteData.AgregarPresidente(presidente);
+                        }
+                        //AQUI TERMINA LA PARTE B
 
 
+
+                        // Lógica para elegir un candidato a presidente ----------------Parte D -------------
+                        Console.WriteLine("Seleccione el número del candidato a presidente: ");
+                        int seleccion = int.Parse(Console.ReadLine());
+
+                        // Validar la selección del candidato
+                        if (seleccion < 1 || seleccion > candidatosPresidentes.GetLength(0))
+                        {
+                            Console.WriteLine("Número de candidato inválido. Por favor, seleccione un número válido.");
+                            opcion = "";  // Reiniciar el bucle y mostrar nuevamente el menú
+                        }
+                        else
+                        {
+                            // Obtener el ID del candidato seleccionado
+                            string idCandidato = candidatosPresidentes[seleccion - 1, 0];
+
+                            // Lógica para procesar el voto del candidato seleccionado
+                        }
+
+                        break;
+                    case "2":
+                        //Muestra los canditados a diputado
+                        string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
+                        // lógica para elegir diputado
+
+                        break;
+                    case "3":
+                        Console.WriteLine("Gracias por votar.");
+                        Console.ReadKey();
+                        return;
+                    default:
+                        Console.WriteLine("Opción inválida.");
+                        Console.ReadKey();
+                        return;
+                }
+
+
+
+            } while (opcion != "3");
 
         }
 
     }
-    
 }
