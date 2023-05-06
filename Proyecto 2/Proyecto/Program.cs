@@ -25,7 +25,8 @@ namespace Proyecto
             // Obtener la lista de DPIs que ya han registrado su voto
             Console.WriteLine("DPIs ya registrados");
 
-            Console.WriteLine(lista_de_dpis_registrados);
+            lista_de_dpis_registrados dpisRegistrados = new lista_de_dpis_registrados();
+            dpisRegistrados.lista();
 
 
 
@@ -71,12 +72,35 @@ namespace Proyecto
 
             string opcion = Console.ReadLine();
 
+
+            // TERCERA PARTE DEL ENUNCIADO ------- VIST PARA VOTACIÓN DEL PRESIDENTE
             switch (opcion)
             {
                 case "1":
+                    //Muestra los candidatos a presidente
+                    string[,] candidatosPresidentes = BlockchainConnector.CandidatosPresidentes();
+
+                    for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
+                    {
+                        string id = candidatosPresidentes[i, 0];
+                        string nombreCandidato = candidatosPresidentes[i, 1];
+                        string nombrePartido = candidatosPresidentes[i, 2];
+                        string vicepresidente = candidatosPresidentes[i, 3];
+
+                        // Aquí puedes mostrar los datos del candidato en la interfaz de usuario
+                        Console.WriteLine("Candidato {0}:", i + 1);
+                        Console.WriteLine("ID: {0}", id);
+                        Console.WriteLine("Nombre: {0}", nombreCandidato);
+                        Console.WriteLine("Partido: {0}", nombrePartido);
+                        Console.WriteLine("Vicepresidente: {0}", vicepresidente);
+                        Console.WriteLine();
+                    }
+
                     // lógica para elegir presidente
                     break;
                 case "2":
+                    //Muestra los canditados a diputado
+                    string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
                     // lógica para elegir diputado
                     break;
                 case "3":
