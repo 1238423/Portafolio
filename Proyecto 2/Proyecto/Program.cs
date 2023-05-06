@@ -72,17 +72,19 @@ namespace Proyecto
                 }
             }
 
-            string opcion;
+            // SEGUNDA PARTE DEL ENUNCIADO. (MENU)
+            Console.WriteLine("Bienvenido, por favor seleccione una opción:");
+            Console.WriteLine("1. Elegir presidente");
+            Console.WriteLine("2. Elegir diputado");
+            Console.WriteLine("3. Finalizar votación");
+
+            string opcion = Console.ReadLine();
+
+           // string opcion;
             do
             {
 
-                // SEGUNDA PARTE DEL ENUNCIADO. (MENU)
-                Console.WriteLine("Bienvenido, por favor seleccione una opción:");
-                Console.WriteLine("1. Elegir presidente");
-                Console.WriteLine("2. Elegir diputado");
-                Console.WriteLine("3. Finalizar votación");
-
-                opcion = Console.ReadLine();
+             
 
 
                 // TERCERA PARTE DEL ENUNCIADO ------- VIST PARA VOTACIÓN DEL PRESIDENTE
@@ -133,30 +135,47 @@ namespace Proyecto
                         }
                         //AQUI TERMINA LA PARTE B
 
-
+                        //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                         // Lógica para elegir un candidato a presidente ----------------Parte D -------------
                         Console.WriteLine("Seleccione el número del candidato a presidente: ");
                         int seleccion = int.Parse(Console.ReadLine());
 
                         // Validar la selección del candidato
-                        if (seleccion < 1 || seleccion > candidatosPresidentes.GetLength(0))
+                        if (seleccion < 0 || seleccion > candidatosPresidentes.GetLength(0))
                         {
-                            Console.WriteLine("Número de candidato inválido. Por favor, seleccione un número válido.");
-                            opcion = "";  // Reiniciar el bucle y mostrar nuevamente el menú
+                            Console.WriteLine("*****Número de candidato inválido. Por favor, seleccione un número válido.*****");
+                         
+
+                            for (int i = 0; i < candidatosPresidentes.GetLength(0); i++)
+                            {
+                                string id = candidatosPresidentes[i, 0];
+                                string nombreCandidato = candidatosPresidentes[i, 1];
+                                string nombrePartido = candidatosPresidentes[i, 2];
+                                string vicepresidente = candidatosPresidentes[i, 3];
+
+                                Console.WriteLine($"Candidato #{i}:"); // i + 1 para que inicie desde 1
+                                Console.WriteLine($"ID: {id}");
+                                Console.WriteLine($"Nombre del candidato: {nombreCandidato}");
+                                Console.WriteLine($"Partido político: {nombrePartido}");
+                                Console.WriteLine($"Vicepresidente: {vicepresidente}");
+                                Console.WriteLine();
+                            } // Reiniciar el bucle y mostrar nuevamente el menú
                         }
+                    
+                        // string idCandidato = candidatosPresidentes[seleccion - 1, 0];
                         else
                         {
                             // Obtener el ID del candidato seleccionado
-                            string idCandidato = candidatosPresidentes[seleccion - 1, 0];
 
+                            Console.WriteLine("Lógica para escoger el voto");
                             // Lógica para procesar el voto del candidato seleccionado
                         }
 
                         break;
                     case "2":
                         //Muestra los canditados a diputado
-                        string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
+                      //  string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
                         // lógica para elegir diputado
 
                         break;
