@@ -1,5 +1,6 @@
 ﻿
 using Driver;
+using System.Runtime.Intrinsics.Arm;
 using System.Security.Cryptography.X509Certificates;
 
 
@@ -7,6 +8,9 @@ namespace Proyecto
 {
     public class Program
     {
+        public static string dpi;
+        public static string nick;
+
         public static void Main(string[] args)
         {
 
@@ -167,36 +171,69 @@ namespace Proyecto
 
                     } while (seleccion < 0 || seleccion > candidatosPresidentes.GetLength(0));
 
-                    // string idCandidato = candidatosPresidentes[seleccion - 1, 0];
+                    string nombreCandidatoElegido = "";
+                    string nombrePartidoElegido = "";
                     if (seleccion > 0 || seleccion < candidatosPresidentes.GetLength(0))
                     {
                         // Obtener el ID del candidato seleccionado
+                        string idCandidato = candidatosPresidentes[seleccion, 0];
 
-                        Console.WriteLine("Lógica para escoger el voto");
+
                         // Lógica para procesar el voto del candidato seleccionado
+
+                        //Obtiene los datos del candidato que se seleccionó
+                        nombreCandidatoElegido = presidentes[seleccion, 1];
+                        nombrePartidoElegido = presidentes[seleccion, 2];
+                    }
+                    Console.WriteLine("\nCandidato elegido:");
+                    Console.WriteLine($"Nombre del candidato: {nombreCandidatoElegido}");
+                    Console.WriteLine($"Partido político: {nombrePartidoElegido}");
+
+                    // confirmar ingresando el nombre del candidato y del partido
+                    Console.WriteLine("\nPor favor, confirme su elección ingresando el nombre del candidato");
+
+                    string confirmacionNombreCandidato = Console.ReadLine();
+                    Console.WriteLine("y el nombre del partido político:");
+                    string confirmacionNombrePartido = Console.ReadLine();
+
+                    // Validar la confirmación del votante
+                    if (confirmacionNombreCandidato == nombreCandidatoElegido && confirmacionNombrePartido == nombrePartidoElegido)
+                    {
+                        Console.WriteLine("Elección confirmada. El voto para presidente ha sido registrado.");
+                        // Lógica para registrar el voto del candidato seleccionado
+                        Guid presidenteId = Guid.Parse(presidentes[seleccion, 0]);
+                        Guid diputadoId = Guid.NewGuid();
+
+                        string[] listaDeDpis = Driver.BlockchainConnector.RegistrarVoto(dpi, presidenteId, diputadoId, nick);
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Los datos ingresados no coinciden con la elección realizada. Por favor, intente nuevamente.");
+                        // Volver a mostrar el menú o realizar alguna acción adicional
                     }
 
                     break;
                 case "2":
-                        //Muestra los canditados a diputado
-                      //  string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
-                        // lógica para elegir diputado
+                    //Muestra los canditados a diputado
+                    //  string[,] candidatosDiputados = BlockchainConnector.CandidatosDiputados();
+                    // lógica para elegir diputado
 
-                        break;
-                    case "3":
-                        Console.WriteLine("Gracias por votar.");
-                        Console.ReadKey();
-                        return;
-                    default:
-                        Console.WriteLine("Opción inválida.");
-                        Console.ReadKey();
-                        return;
-                }
+                    break;
+                case "3":
+                    Console.WriteLine("Gracias por votar.");
+                    Console.ReadKey();
+                    return;
+                default:
+                    Console.WriteLine("Opción inválida.");
+                    Console.ReadKey();
+                    return;
+            }
 
 
-
-            } 
 
         }
 
     }
+
+}
